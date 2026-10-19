@@ -103,7 +103,8 @@ set -a; . ./.env; set +a
 - Previous module: **A tool that picks the format** —
   [`clic-par-clic-comfyui-04-outil-formats`](https://github.com/guilhem-/clic-par-clic-comfyui-04-outil-formats).
 - Next module: **What may be generated?** (the organization's content charter: Open WebUI filter,
-  check inside the tool, gateway in front of ComfyUI) — `clic-par-clic-comfyui-06-…` (coming soon).
+  check inside the tool, gateway in front of ComfyUI) —
+  [`clic-par-clic-comfyui-06-charte`](https://github.com/guilhem-/clic-par-clic-comfyui-06-charte).
 
 ## License
 

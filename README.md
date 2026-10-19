@@ -37,8 +37,8 @@ tool (left public on purpose), the tool is called and refuses.
   [`clic-par-clic-comfyui-02-workflow-organisation`](https://github.com/guilhem-/clic-par-clic-comfyui-02-workflow-organisation).
 - The "Image workshop" tool and model of module 4 —
   [`clic-par-clic-comfyui-04-outil-formats`](https://github.com/guilhem-/clic-par-clic-comfyui-04-outil-formats)
-  (French ids `atelier_images`, `atelier-d-images`), or the English version installed by
-  `python setup_permissions.py --install-workshop` (ids `image_workshop`, `image-workshop`).
+  (ids `image_workshop`, `image-workshop`, installed by its `setup_workshop.py`), or the same tool
+  and model installed by `python setup_permissions.py --install-workshop`.
 - An Open WebUI **administrator** account, and a few user accounts (role "user"; administrators
   bypass permissions and access control).
 - Python 3.10+ (standard library only); `curl` and `bash` for the test.

@@ -115,4 +115,6 @@ class Tools:
     async def _status(self, emitter, text: str, done: bool = False) -> None:
         """Progress message shown above the answer."""
         if emitter:
-            await emitter({"type": "status", "data": {"description": text, "done": done}})
+            await emitter(
+                {"type": "status", "data": {"description": text, "done": done}}
+            )
